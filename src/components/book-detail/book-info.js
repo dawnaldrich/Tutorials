@@ -15,6 +15,6 @@ const BookInfo = (props) => {
       </div>
     </div>
   );
-}
+};
 
 export default BookInfo;

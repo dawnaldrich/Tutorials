@@ -4,7 +4,7 @@ import BookReviewContainer from './book-review-container';
 
 const BookContainer = (props) => {
   const bookInfo = {
-    image: props.book.volumeInfo.imageLinks.large ? props.book.volumeInfo.imageLinks.large : 'https://via.placeholder.com/250',
+    image: props.book.volumeInfo.imageLinks ? props.book.volumeInfo.imageLinks.large : 'https://via.placeholder.com/250',
     title: props.book.volumeInfo.title,
     author: props.book.volumeInfo.author,
     description: props.book.volumeInfo.description,
