@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8431247a-14a9-449a-bb22-9038173b33f8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/book-detail/book-container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/book-detail/book-container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/book-detail/book-info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/book-detail/book-info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/book-detail/book-review-container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/book-detail/book-review-container.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="book-review-container.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="book-review-container.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/book-detail/book-review-container.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+            <state relative-caret-position="306">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -68,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="book-container.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="book-container.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/book-detail/book-container.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -160,7 +159,6 @@
         <option value="$PROJECT_DIR$/src/pages/page-not-found.js" />
         <option value="$PROJECT_DIR$/src/components/books-section/book.js" />
         <option value="$PROJECT_DIR$/src/components/book-detail/loader.js" />
-        <option value="$PROJECT_DIR$/src/components/book-detail/book-review-container.js" />
         <option value="$PROJECT_DIR$/src/components/book-detail/book-detail.js" />
         <option value="$PROJECT_DIR$/src/pages/books-section.js" />
         <option value="$PROJECT_DIR$/src/pages/book-detail.js" />
@@ -168,6 +166,7 @@
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/components/book-detail/book-container.js" />
+        <option value="$PROJECT_DIR$/src/components/book-detail/book-review-container.js" />
       </list>
     </option>
   </component>
@@ -314,12 +313,12 @@
       <workItem from="1541628617720" duration="3126000" />
       <workItem from="1541715405830" duration="10143000" />
       <workItem from="1541795691995" duration="1790000" />
-      <workItem from="1541797787222" duration="7151000" />
+      <workItem from="1541797787222" duration="7283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55484000" />
+    <option name="totallyTimeSpent" value="55616000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="977" extended-state="0" />
@@ -754,16 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/book-detail/book-detail.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/books-section/book.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -788,13 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/book-detail/book-review-container.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
@@ -809,6 +791,23 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/book-detail/book-detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/book-detail/book-review-container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>

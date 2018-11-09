@@ -16,7 +16,7 @@ const BookReviewContainer = (props) => {
         {stars.map(e => (e === 1 ? <i className="fas fa-star"></i> : <i className="fas fa-star-half"></i>))}
       </div>
       <div className="book-review">
-        <p>{props.ratingsCount}</p>
+        <p> ({props.ratingsCount})</p>
       </div>
     </div>
   );
