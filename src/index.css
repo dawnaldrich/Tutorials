@@ -110,6 +110,13 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px
 }
+.book-description ul{
+  padding-top:5px;
+  margin-left: 20px;
+}
+.book-description p{
+  padding:8px 0px;
+}
 #book-detail .book-img img{
   max-width:100%;
 }

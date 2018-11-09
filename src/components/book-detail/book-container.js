@@ -3,17 +3,18 @@ import BookInfo from './book-info';
 import BookReviewContainer from './book-review-container';
 
 const BookContainer = (props) => {
-  let bookInfo = {
-    image: props.book.volumeInfo.imageLinks.large,
+  const bookInfo = {
+    image: props.book.volumeInfo.imageLinks.large ? props.book.volumeInfo.imageLinks.large : 'https://via.placeholder.com/250',
     title: props.book.volumeInfo.title,
     author: props.book.volumeInfo.author,
     description: props.book.volumeInfo.description,
     ratings: {
-      averageRating: props.book.volumeInfo.averageRating ? props.book.volumeInfo.averageRating : 'n/a',
-      ratingsCount: props.book.volumeInfo.ratingsCount ? props.book.volumeInfo.ratingsCount : 'n/a',
-    }
+      averageRating: props.book.volumeInfo.averageRating ? props.book.volumeInfo.averageRating : 'no rating available',
+      ratingsCount: props.book.volumeInfo.ratingsCount ? props.book.volumeInfo.ratingsCount : 'not available',
+    },
   }
-  return(
+
+  return (
     <div className="book-container">
       <div className="book-img">
         <img src={bookInfo.image} alt={bookInfo.title}/>
@@ -23,7 +24,7 @@ const BookContainer = (props) => {
       <BookReviewContainer averageRating={bookInfo.ratings.averageRating}
         ratingsCount={bookInfo.ratings.ratingsCount}/>
     </div>
-  )
+  );
 }
 
 export default BookContainer;

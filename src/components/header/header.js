@@ -1,9 +1,8 @@
 import React from 'react';
 import {NavLink, Link} from 'react-router-dom';
 
-const Header = (props) => {
-  return(
-    <header id="header">
+const Header = () =>
+  <header id="header">
         <div className="container">
             <nav>
                 <Link to="/" className="logo"><i className="fas fa-book-open"></i></Link>
@@ -17,7 +16,5 @@ const Header = (props) => {
             </nav>
       </div>
     </header>
-  )
-}
 
 export default Header;

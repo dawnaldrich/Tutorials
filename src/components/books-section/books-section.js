@@ -2,18 +2,18 @@ import React from 'react';
 import BooksContainer from './books-container';
 
 const BooksSection = (props) => {
-  if (props.books.length ===0) {
-    return(
+  if (props.books.length === 0) {
+    return (
       <section id = "books-section" >
         <div className = "container" >
           <div className = "section-title" >
-            <h1>{"No Books found for " + props.title}</h1>
+            <h1>{`No Books found for  + ${props.title}`}</h1>
           </div>
         </div>
       </section>
-    )
-  } else {
-    return(
+    );
+  }
+  return (
       <section id = "books-section" >
         <div className = "container" >
           <div className = "section-title" >
@@ -22,8 +22,7 @@ const BooksSection = (props) => {
           <BooksContainer books={props.books} />
         </div>
       </section>
-    )
-  }
+  );
 }
 
 export default BooksSection;
